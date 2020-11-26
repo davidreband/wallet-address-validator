@@ -47,6 +47,7 @@ npm install wallet-address-validator
 * Decred/DCR, `'decred'` or `'DCR'`
 * Digibyte/DGB, `'digibyte'` or `'DGB'`
 * Dogecoin/DOGE, `'dogecoin'` or `'DOGE'`
+* Doichain/DOI, `'doichain'` or `'DOI'`
 
 * Ethereum/ETH, `'ethereum'` or `'ETH'`
 * EthereumClassic/ETH, `'ethereumclassic'` or `'ETC'`

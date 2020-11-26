@@ -382,6 +382,11 @@ describe('WAValidator.validate()', function () {
             valid('xrb_1q79ahdr36uqn38p5tp5sqwkn73rnpj1k8obtuetdbjcx37d5gahhd1u9cuh', 'nano');
             valid('nano_1q79ahdr36uqn38p5tp5sqwkn73rnpj1k8obtuetdbjcx37d5gahhd1u9cuh', 'nano');
         });
+
+        it.only('should return true for correct doichain addresses', function () {
+           valid('N2BAT6xNGYjP6Gvx3MyopNZYfHtFp1ptcZ', 'doichain');
+           valid('N2BAT6xNGYjP6Gvx3MyopNZYfHtFp1ptcZ', 'doi');
+        });
     });
 
     describe('invalid results', function () {

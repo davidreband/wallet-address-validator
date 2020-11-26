@@ -63,7 +63,12 @@ var CURRENCIES = [{
 },{
     name: 'namecoin',
     symbol: 'nmc',
-    addressTypes: {prod: ['34'], testnet: []},
+    addressTypes: {prod: ['34', '0d'], testnet: []},
+    validator: BTCValidator
+},{
+    name: 'doichain',
+    symbol: 'doi',
+    addressTypes: {prod: ['34', '0d'], testnet: ['6f','c4']},
     validator: BTCValidator
 },{
     name: 'biocoin',
